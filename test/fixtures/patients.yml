@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  gender: MyString
+  dob: 2019-11-09
+  appointement: 2019-11-09
+  admission: 2019-11-09
+  discharge: 2019-11-09
+  doctor_name: MyString
+  hospital_name: MyString
+
+two:
+  first_name: MyString
+  last_name: MyString
+  gender: MyString
+  dob: 2019-11-09
+  appointement: 2019-11-09
+  admission: 2019-11-09
+  discharge: 2019-11-09
+  doctor_name: MyString
+  hospital_name: MyString

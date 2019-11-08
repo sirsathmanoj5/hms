@@ -1,8 +1,12 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Users</h1>
-
-<table>
+<div class="text-center">
+  <p id="notice"><%= notice %></p>
+  <div class="text-right" style="margin-right: 100px">
+    <%=link_to "Patient List", patients_path %>
+  </div>
+  <h1>User List</h1>
+</div>
+<div class="container">
+<table class="table table-striped">
   <thead>
     <tr>
       <th>First name</th>
@@ -35,3 +39,4 @@
 <br>
 
 <%= link_to 'New User', new_user_path %>
+</div>

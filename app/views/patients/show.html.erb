@@ -1,0 +1,52 @@
+<%= link_to 'Edit', edit_patient_path(@patient) %> |
+<%= link_to 'Back', patients_path %>
+<div class="container">
+
+  <p id="notice"><%= notice %></p>
+  <h1>Patient Details</h1>
+  <p>
+    <strong>First name:</strong>
+    <%= @patient.first_name %>
+  </p>
+
+  <p>
+    <strong>Last name:</strong>
+    <%= @patient.last_name %>
+  </p>
+
+  <p>
+    <strong>Gender:</strong>
+    <%= @patient.gender %>
+  </p>
+
+  <p>
+    <strong>Dob:</strong>
+    <%= @patient.dob %>
+  </p>
+
+  <p>
+    <strong>Appointement:</strong>
+    <%= @patient.appointement %>
+  </p>
+
+  <p>
+    <strong>Admission:</strong>
+    <%= @patient.admission %>
+  </p>
+
+  <p>
+    <strong>Discharge:</strong>
+    <%= @patient.discharge %>
+  </p>
+
+  <p>
+    <strong>Doctor name:</strong>
+    <%= @patient.doctor_name %>
+  </p>
+
+  <p>
+    <strong>Hospital name:</strong>
+    <%= @patient.hospital_name %>
+  </p>
+</div>
+
